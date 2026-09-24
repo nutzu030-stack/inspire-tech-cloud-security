@@ -1,0 +1,21 @@
+{
+  "project_name": "Inspire Tech Solution Cloud Security Benchmark",
+  "version": "1.0.0",
+  "benchmarks": {
+    "network_security": {
+      "forbidden_open_ports": [22, 3389, 80, 443],
+      "max_allowed_public_exposure": 0,
+      "description": "No high-risk management or unencrypted ports can be exposed to 0.0.0.0/0."
+    },
+    "storage_security": {
+      "require_s3_encryption": true,
+      "require_public_access_block": true,
+      "description": "All S3 buckets must have encryption enabled and public access completely blocked."
+    },
+    "iam_security": {
+      "max_access_key_age_days": 90,
+      "require_mfa_for_privileged_users": true,
+      "description": "IAM access keys must be rotated every 90 days and MFA enforced."
+    }
+  }
+}
