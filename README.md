@@ -1,7 +1,7 @@
 ### Screenshots 
-![Benchmark](screenshots/Benchmark.png)
-![LogAnalysis](screenshots/LogAnalysis.png)
-![Passed](screenshots/Passed.png)
+![Benchmark](docs/screenshots/Benchmark.png)
+![LogAnalysis](docs/screenshots/LogAnalysis.png)
+![Passed](docs/screenshots/Passed.png)
 
 ### Inspire Tech Solution: Automated Cloud Security Benchmark Tool
 
